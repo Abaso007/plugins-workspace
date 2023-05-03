@@ -22,7 +22,7 @@ Install the Core plugin by adding the following to your `Cargo.toml` file:
 [dependencies]
 tauri-plugin-positioner = "1.0"
 # or through git
-tauri-plugin-positioner = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "dev" }
+tauri-plugin-positioner = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
 ```
 
 You can install the JavaScript Guest bindings using your preferred JavaScript package manager:
@@ -30,11 +30,11 @@ You can install the JavaScript Guest bindings using your preferred JavaScript pa
 > Note: Since most JavaScript package managers are unable to install packages from git monorepos we provide read-only mirrors of each plugin. This makes installation option 2 more ergonomic to use.
 
 ```sh
-pnpm add tauri-plugin-positioner
+pnpm add tauri-plugin-positioner-api
 # or
-npm add tauri-plugin-positioner
+npm add tauri-plugin-positioner-api
 # or
-yarn add tauri-plugin-positioner
+yarn add tauri-plugin-positioner-api
 ```
 
 Or through git:
